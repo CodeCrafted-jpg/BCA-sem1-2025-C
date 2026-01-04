@@ -2,7 +2,6 @@
 // outputs mean (average), range (max-min) and mode (most frequent elements)? 
 #include <stdio.h>
 
-// 1. Module to calculate Mean
 double getMean(int arr[], int n) {
     int sum = 0;
     for (int i = 0; i < n; i++) {

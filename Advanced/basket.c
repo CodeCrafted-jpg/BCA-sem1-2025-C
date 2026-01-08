@@ -7,7 +7,7 @@ int main() {
 
     
     srand(time(0));
-    number = rand() % 100 + 1;   // 1 to 100
+    number = rand() % 100 + 1;   
 
     printf("🎮 NUMBER GUESSING GAME 🎮\n");
     printf("I have selected a number between 1 and 100.\n");

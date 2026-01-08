@@ -6,9 +6,6 @@
   float  price;
   char author[50];
   int isbn;
-  
- 
-
 };
 void Print(struct Book book);
 int main(){
@@ -21,6 +18,6 @@ void Print(struct Book book){
       printf("Name: %s \n", book.Name);
       printf("Price: %.2f \n" , book.price);
       printf("Author: %s \n" , book.author);
-      printf("Isbn: %d \n" , book.isbn);
+      printf("Isbn v: %d \n" , book.isbn);
       
 }
